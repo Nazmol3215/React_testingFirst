@@ -72,7 +72,7 @@
   .place-order-btn {
     width: 100%;
     padding: 15px;
-    background-color: #ffc107;
+    background-color: #FF0000;
     color: #fff;
     font-size: 18px;
     border: none;
@@ -80,6 +80,6 @@
   }
   
   .place-order-btn:hover {
-    background-color: #e0a800;
+    background-color: #CC0000;
   }
   

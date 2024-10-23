@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
 
+
 const ImageSlider = () => {
   const settings = {
     dots: true,  // Shows navigation dots at the bottom
@@ -17,6 +18,9 @@ const ImageSlider = () => {
 '0.jpg',
 'Coffee600.jpg',
 'download-00.jpg',
+'600x600.jpg',
+'Executive-1.webp',
+
 
   ];
 

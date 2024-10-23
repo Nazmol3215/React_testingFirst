@@ -5,7 +5,7 @@ import OffcanvasExample from '../src/Components/NavbarReact';
 import ImageSlider from '../src/Components/Sliderfe';
 import Footer from '../src/Components/WebFooter';
 import Checkout from '../src/Components/OrderForm';
-
+import MainRouter from './MainRouter';
 
 function App() {
   return (
@@ -22,6 +22,13 @@ function App() {
 <ImageSlider/>
 <Checkout/>
 <Footer/>
+
+
+<MainRouter/>
+
+
+
+
 
     </div>
   );

@@ -5,7 +5,9 @@ import React from 'react';
 
 
 
+
 export default function ImgContainer() {
+
   return (
       
       <div className="App">
@@ -21,7 +23,7 @@ export default function ImgContainer() {
         <span class="original-price">৳ 2,000</span>
         <span class="discounted-price">৳ 1,800</span>
       </div>
-      <button class="add-to-cart">Add to cart</button>
+      <button class="add-to-cart">Add </button>
     </div>
   </div>
 
