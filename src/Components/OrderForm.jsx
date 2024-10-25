@@ -23,18 +23,6 @@ const Checkout = () => {
 
   return (
     <div className="checkout-container">
-      <div className="cart-section">
-        <div className="cart-item">
-          <h4>Lumbar Support Pillow × {quantity}</h4>
-          <div className="quantity-control">
-            <button onClick={() => handleQuantityChange(-1)}>-</button>
-            <span>{quantity}</span>
-            <button onClick={() => handleQuantityChange(1)}>+</button>
-          </div>
-          <p>৳ {total}.00</p>
-        </div>
-      </div>
-
       <form className="billing-section" onSubmit={handleSubmit}>
         <h3>Billing details</h3>
         <label>
@@ -65,6 +53,23 @@ const Checkout = () => {
             placeholder="বাসা নং, রোড নং, থানা, জেলা"
           />
         </label>
+
+
+        <div className="cart-section">
+        <div className="cart-item">
+          <h4>Lumbar piollow × {quantity}</h4>
+          <div className="quantity-control">
+            <button onClick={() => handleQuantityChange(-1)}>-</button>
+            <span>{quantity}</span>
+            <button onClick={() => handleQuantityChange(1)}>+</button>
+          </div>
+          <p>৳ {total}.00</p>
+        </div>
+      </div>
+
+
+
+
 
         <div className="order-summary">
           <h3>Your order</h3>

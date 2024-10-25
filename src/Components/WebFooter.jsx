@@ -20,6 +20,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
+        <div className='footer-bottom_two'>
         <div className="footer-column">
           <h3>Categories</h3>
           <ul>
@@ -57,6 +58,8 @@ const Footer = () => {
             <li><a href="#">License & Certificates</a></li>
             <li><a href="#">Privacy Policy</a></li>
           </ul>
+        </div>
+
         </div>
       </div>
     </footer>
