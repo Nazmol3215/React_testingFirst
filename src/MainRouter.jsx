@@ -6,18 +6,19 @@ import Conteact from "./ReactRouter/Conteact";
 import NavBar from "./ReactRouter/NavBar";
 import MainPage from "./MainPages/MainPage";
 import OrderButton from "./ReactRouter/OrderButton";
+import Checkout from "./Components/OrderForm";
 
 export default function MainRouter() {
   return (
     <div>
       <BrowserRouter>
         <NavBar />
-
         <Routes>
           <Route path="/MainPage" element={<MainPage />} />
           <Route path="/About" element={<About />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/Conteact" element={<Conteact />} />
+          <Route path="/Checkout" element={<Checkout />} />
           <Route path="/OrderButton" element={<OrderButton />} />
         </Routes>
       </BrowserRouter>

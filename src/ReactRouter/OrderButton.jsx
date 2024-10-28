@@ -6,8 +6,9 @@ export default function OrderButton() {
 
   return (
     <div>
-      this is order button
-      <button onClick={() => navigate("/Conteact")}>Go to order</button>
+      <button class="add-to-cart" onClick={() => navigate("/Checkout")}>
+         Order Now
+      </button>
     </div>
   );
 }

@@ -14,7 +14,6 @@ export default function OfficeFurniture(props) {
         <span class="original-price">৳ 5,500</span>
         <span class="discounted-price">৳ 5,000</span>
       </div>
-        <button class="add-to-cart">Add to cart</button>
     </div>
   </div>
   <div class="product-card">
@@ -26,7 +25,6 @@ export default function OfficeFurniture(props) {
         <span class="original-price">৳ 5,500</span>
         <span class="discounted-price">৳ 5,000</span>
       </div>
-      <button class="add-to-cart">Add to cart</button>
     </div>
   </div>
 

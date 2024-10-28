@@ -9,9 +9,7 @@ import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
     <nav>
-
-
-{["md"].map((expand) => (
+      {["md"].map((expand) => (
         <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
           <Container fluid>
             <Navbar.Brand href="#">
@@ -42,21 +40,17 @@ export default function NavBar() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 {" "}
-        <Link to="/MainPage"> MainPage</Link> <br />
-      <Link to="/Home"> About</Link> <br />
-      <Link to="/About"> Home</Link> <br />
-      <Link to="/Conteact"> Conteact</Link> <br />
-      <Link to="/OrderButton"> OrderButton</Link> <br />
+                <Link to="/MainPage"> MainPage</Link> <br />
+                <Link to="/Home"> About</Link> <br />
+                <Link to="/About"> Home</Link> <br />
+                <Link to="/Conteact"> Conteact</Link> <br />
+                <Link to="/Checkout"> Checkout</Link> <br />
+                <Link to="/OrderButton"> OrderButton</Link> <br />
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>
         </Navbar>
       ))}
-
-
-
-
-
     </nav>
   );
 }

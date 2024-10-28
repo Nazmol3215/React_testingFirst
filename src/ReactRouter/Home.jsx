@@ -8,7 +8,7 @@ const navigate = useNavigate();
   return (
     <div>
       
-<button onClick={()=>navigate("/Conteact")}>Go to</button>
+<button onClick={()=>navigate("/Checkout")}>Order Now</button>
 
 
 

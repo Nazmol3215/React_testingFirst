@@ -14,7 +14,9 @@ const Checkout = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission logic
-    alert(`Order placed for ${name} with phone ${phone} and address ${address}`);
+    alert(
+      `Order placed for ${name} with phone ${phone} and address ${address}`
+    );
   };
 
   const subtotal = 1000;
@@ -54,22 +56,17 @@ const Checkout = () => {
           />
         </label>
 
-
         <div className="cart-section">
-        <div className="cart-item">
-          <h4>Lumbar piollow × {quantity}</h4>
-          <div className="quantity-control">
-            <button onClick={() => handleQuantityChange(-1)}>-</button>
-            <span>{quantity}</span>
-            <button onClick={() => handleQuantityChange(1)}>+</button>
+          <div className="cart-item">
+            <h4>Lumbar piollow × {quantity}</h4>
+            <div className="quantity-control">
+              <button onClick={() => handleQuantityChange(-1)}>-</button>
+              <span>{quantity}</span>
+              <button onClick={() => handleQuantityChange(1)}>+</button>
+            </div>
+            <p>৳ {total}.00</p>
           </div>
-          <p>৳ {total}.00</p>
         </div>
-      </div>
-
-
-
-
 
         <div className="order-summary">
           <h3>Your order</h3>
@@ -95,8 +92,6 @@ const Checkout = () => {
         </div>
       </form>
     </div>
-
-    
   );
 };
 

@@ -6,9 +6,10 @@
 
 .product-grid {
   display: grid;
-  grid-template-columns: auto auto ;
-  gap: 20px;
-  padding: 20px;
+ grid-template-columns: auto auto ; 
+ margin-bottom: 9px;
+  /* gap: 20px; */
+  /* padding: 20px; */
 }
 
 .product-card {

@@ -1,5 +1,4 @@
 import React from 'react';
-import Checkout from '../Components/OrderForm';
 import ImageSlider from '../Components/Sliderfe';
 import Footer from '../Components/WebFooter';
 import ScrollToTop from '../ScrolliButtom/scrollToTop';
@@ -19,7 +18,6 @@ import ImgContainertwo from '../Components/ImgeContainertwo';
                     <ImgContainertwo titleText="Executive  Chair With White Body" img="Zade.jpg.webp"/>
                     <ImgContainertwo titleText="Executive Office  ChairBody seven" img="download-00.jpg"/>
                     <ImageSlider/>
-                    <Checkout/>
                     <Footer/>
                     <ScrollToTop/>
 
